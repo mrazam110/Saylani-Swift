@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE5812B61B12565100E62955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5812B51B12565100E62955 /* AppDelegate.swift */; };
+		FE5812B81B12565100E62955 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5812B71B12565100E62955 /* ViewController.swift */; };
+		FE5812BB1B12565100E62955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5812B91B12565100E62955 /* Main.storyboard */; };
+		FE5812BD1B12565100E62955 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5812BC1B12565100E62955 /* Images.xcassets */; };
+		FE5812C01B12565100E62955 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE5812BE1B12565100E62955 /* LaunchScreen.xib */; };
+		FE5812CC1B12565100E62955 /* firebaselearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5812CB1B12565100E62955 /* firebaselearningTests.swift */; };
+		FE5812D61B12587A00E62955 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5812D51B12587A00E62955 /* Firebase.framework */; };
+		FE5812D81B12588F00E62955 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5812D71B12588F00E62955 /* libicucore.dylib */; };
+		FE5812DA1B12589700E62955 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5812D91B12589700E62955 /* libc++.dylib */; };
+		FE5812DC1B12589F00E62955 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5812DB1B12589F00E62955 /* CFNetwork.framework */; };
+		FE5812DE1B1258A400E62955 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5812DD1B1258A400E62955 /* Security.framework */; };
+		FE5812E01B1258AE00E62955 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5812DF1B1258AE00E62955 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE5812C61B12565100E62955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE5812A81B12565100E62955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5812AF1B12565100E62955;
+			remoteInfo = firebaselearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE5812B01B12565100E62955 /* firebaselearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaselearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5812B41B12565100E62955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5812B51B12565100E62955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE5812B71B12565100E62955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE5812BA1B12565100E62955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE5812BC1B12565100E62955 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE5812BF1B12565100E62955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FE5812C51B12565100E62955 /* firebaselearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firebaselearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5812CA1B12565100E62955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5812CB1B12565100E62955 /* firebaselearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaselearningTests.swift; sourceTree = "<group>"; };
+		FE5812D51B12587A00E62955 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ../../Downloads/Firebase.framework; sourceTree = "<group>"; };
+		FE5812D71B12588F00E62955 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		FE5812D91B12589700E62955 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		FE5812DB1B12589F00E62955 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FE5812DD1B1258A400E62955 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FE5812DF1B1258AE00E62955 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FEB539F81B1260D3009EFA16 /* firebaselearning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "firebaselearning-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE5812AD1B12565100E62955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5812E01B1258AE00E62955 /* SystemConfiguration.framework in Frameworks */,
+				FE5812DE1B1258A400E62955 /* Security.framework in Frameworks */,
+				FE5812DC1B12589F00E62955 /* CFNetwork.framework in Frameworks */,
+				FE5812DA1B12589700E62955 /* libc++.dylib in Frameworks */,
+				FE5812D81B12588F00E62955 /* libicucore.dylib in Frameworks */,
+				FE5812D61B12587A00E62955 /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5812C21B12565100E62955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE5812A71B12565100E62955 = {
+			isa = PBXGroup;
+			children = (
+				FE5812DF1B1258AE00E62955 /* SystemConfiguration.framework */,
+				FE5812DD1B1258A400E62955 /* Security.framework */,
+				FE5812DB1B12589F00E62955 /* CFNetwork.framework */,
+				FE5812D91B12589700E62955 /* libc++.dylib */,
+				FE5812D71B12588F00E62955 /* libicucore.dylib */,
+				FE5812D51B12587A00E62955 /* Firebase.framework */,
+				FE5812B21B12565100E62955 /* firebaselearning */,
+				FE5812C81B12565100E62955 /* firebaselearningTests */,
+				FE5812B11B12565100E62955 /* Products */,
+				FEB539F81B1260D3009EFA16 /* firebaselearning-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		FE5812B11B12565100E62955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE5812B01B12565100E62955 /* firebaselearning.app */,
+				FE5812C51B12565100E62955 /* firebaselearningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE5812B21B12565100E62955 /* firebaselearning */ = {
+			isa = PBXGroup;
+			children = (
+				FE5812B51B12565100E62955 /* AppDelegate.swift */,
+				FE5812B71B12565100E62955 /* ViewController.swift */,
+				FE5812B91B12565100E62955 /* Main.storyboard */,
+				FE5812BC1B12565100E62955 /* Images.xcassets */,
+				FE5812BE1B12565100E62955 /* LaunchScreen.xib */,
+				FE5812B31B12565100E62955 /* Supporting Files */,
+			);
+			path = firebaselearning;
+			sourceTree = "<group>";
+		};
+		FE5812B31B12565100E62955 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE5812B41B12565100E62955 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE5812C81B12565100E62955 /* firebaselearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE5812CB1B12565100E62955 /* firebaselearningTests.swift */,
+				FE5812C91B12565100E62955 /* Supporting Files */,
+			);
+			path = firebaselearningTests;
+			sourceTree = "<group>";
+		};
+		FE5812C91B12565100E62955 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE5812CA1B12565100E62955 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE5812AF1B12565100E62955 /* firebaselearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5812CF1B12565100E62955 /* Build configuration list for PBXNativeTarget "firebaselearning" */;
+			buildPhases = (
+				FE5812AC1B12565100E62955 /* Sources */,
+				FE5812AD1B12565100E62955 /* Frameworks */,
+				FE5812AE1B12565100E62955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firebaselearning;
+			productName = firebaselearning;
+			productReference = FE5812B01B12565100E62955 /* firebaselearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE5812C41B12565100E62955 /* firebaselearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5812D21B12565100E62955 /* Build configuration list for PBXNativeTarget "firebaselearningTests" */;
+			buildPhases = (
+				FE5812C11B12565100E62955 /* Sources */,
+				FE5812C21B12565100E62955 /* Frameworks */,
+				FE5812C31B12565100E62955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE5812C71B12565100E62955 /* PBXTargetDependency */,
+			);
+			name = firebaselearningTests;
+			productName = firebaselearningTests;
+			productReference = FE5812C51B12565100E62955 /* firebaselearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE5812A81B12565100E62955 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Saylani;
+				TargetAttributes = {
+					FE5812AF1B12565100E62955 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FE5812C41B12565100E62955 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FE5812AF1B12565100E62955;
+					};
+				};
+			};
+			buildConfigurationList = FE5812AB1B12565100E62955 /* Build configuration list for PBXProject "firebaselearning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE5812A71B12565100E62955;
+			productRefGroup = FE5812B11B12565100E62955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE5812AF1B12565100E62955 /* firebaselearning */,
+				FE5812C41B12565100E62955 /* firebaselearningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE5812AE1B12565100E62955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5812BB1B12565100E62955 /* Main.storyboard in Resources */,
+				FE5812C01B12565100E62955 /* LaunchScreen.xib in Resources */,
+				FE5812BD1B12565100E62955 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5812C31B12565100E62955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE5812AC1B12565100E62955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5812B81B12565100E62955 /* ViewController.swift in Sources */,
+				FE5812B61B12565100E62955 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5812C11B12565100E62955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5812CC1B12565100E62955 /* firebaselearningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE5812C71B12565100E62955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE5812AF1B12565100E62955 /* firebaselearning */;
+			targetProxy = FE5812C61B12565100E62955 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE5812B91B12565100E62955 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5812BA1B12565100E62955 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE5812BE1B12565100E62955 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5812BF1B12565100E62955 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE5812CD1B12565100E62955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE5812CE1B12565100E62955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE5812D01B12565100E62955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mt-54/Downloads",
+				);
+				INFOPLIST_FILE = firebaselearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "firebaselearning-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE5812D11B12565100E62955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mt-54/Downloads",
+				);
+				INFOPLIST_FILE = firebaselearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "firebaselearning-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		FE5812D31B12565100E62955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = firebaselearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firebaselearning.app/firebaselearning";
+			};
+			name = Debug;
+		};
+		FE5812D41B12565100E62955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = firebaselearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firebaselearning.app/firebaselearning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE5812AB1B12565100E62955 /* Build configuration list for PBXProject "firebaselearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5812CD1B12565100E62955 /* Debug */,
+				FE5812CE1B12565100E62955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5812CF1B12565100E62955 /* Build configuration list for PBXNativeTarget "firebaselearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5812D01B12565100E62955 /* Debug */,
+				FE5812D11B12565100E62955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5812D21B12565100E62955 /* Build configuration list for PBXNativeTarget "firebaselearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5812D31B12565100E62955 /* Debug */,
+				FE5812D41B12565100E62955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE5812A81B12565100E62955 /* Project object */;
+}

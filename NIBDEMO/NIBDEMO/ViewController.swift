@@ -26,10 +26,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
         var cell = NSBundle.mainBundle().loadNibNamed("mycell", owner: self, options: nil)[0] as? mycell
-        cell!.myLabel.text = "RandomText"
+        
+        cell!.myLabel.text = "Maroof"
         return cell!
-    
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {

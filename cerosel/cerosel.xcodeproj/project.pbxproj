@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE9FDBBD1B2DFEBE00632C11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9FDBBC1B2DFEBE00632C11 /* AppDelegate.swift */; };
+		FE9FDBBF1B2DFEBE00632C11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9FDBBE1B2DFEBE00632C11 /* ViewController.swift */; };
+		FE9FDBC21B2DFEBE00632C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9FDBC01B2DFEBE00632C11 /* Main.storyboard */; };
+		FE9FDBC41B2DFEBE00632C11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9FDBC31B2DFEBE00632C11 /* Images.xcassets */; };
+		FE9FDBC71B2DFEBE00632C11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9FDBC51B2DFEBE00632C11 /* LaunchScreen.xib */; };
+		FE9FDBD31B2DFEBF00632C11 /* ceroselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9FDBD21B2DFEBF00632C11 /* ceroselTests.swift */; };
+		FE9FDBDE1B2E00B000632C11 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9FDBDC1B2E00B000632C11 /* 2.png */; };
+		FE9FDBDF1B2E00B000632C11 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9FDBDD1B2E00B000632C11 /* 1.png */; };
+		FE9FDBE11B2E04AD00632C11 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9FDBE01B2E04AD00632C11 /* 3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE9FDBCD1B2DFEBF00632C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE9FDBAF1B2DFEBE00632C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE9FDBB61B2DFEBE00632C11;
+			remoteInfo = cerosel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE9FDBB71B2DFEBE00632C11 /* cerosel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cerosel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9FDBBB1B2DFEBE00632C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9FDBBC1B2DFEBE00632C11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE9FDBBE1B2DFEBE00632C11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE9FDBC11B2DFEBE00632C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE9FDBC31B2DFEBE00632C11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE9FDBC61B2DFEBE00632C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FE9FDBCC1B2DFEBF00632C11 /* ceroselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceroselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9FDBD11B2DFEBF00632C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9FDBD21B2DFEBF00632C11 /* ceroselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceroselTests.swift; sourceTree = "<group>"; };
+		FE9FDBDC1B2E00B000632C11 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		FE9FDBDD1B2E00B000632C11 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		FE9FDBE01B2E04AD00632C11 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE9FDBB41B2DFEBE00632C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9FDBC91B2DFEBF00632C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE9FDBAE1B2DFEBE00632C11 = {
+			isa = PBXGroup;
+			children = (
+				FE9FDBB91B2DFEBE00632C11 /* cerosel */,
+				FE9FDBCF1B2DFEBF00632C11 /* ceroselTests */,
+				FE9FDBB81B2DFEBE00632C11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE9FDBB81B2DFEBE00632C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE9FDBB71B2DFEBE00632C11 /* cerosel.app */,
+				FE9FDBCC1B2DFEBF00632C11 /* ceroselTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE9FDBB91B2DFEBE00632C11 /* cerosel */ = {
+			isa = PBXGroup;
+			children = (
+				FE9FDBBC1B2DFEBE00632C11 /* AppDelegate.swift */,
+				FE9FDBBE1B2DFEBE00632C11 /* ViewController.swift */,
+				FE9FDBC01B2DFEBE00632C11 /* Main.storyboard */,
+				FE9FDBE01B2E04AD00632C11 /* 3.png */,
+				FE9FDBDC1B2E00B000632C11 /* 2.png */,
+				FE9FDBDD1B2E00B000632C11 /* 1.png */,
+				FE9FDBC31B2DFEBE00632C11 /* Images.xcassets */,
+				FE9FDBC51B2DFEBE00632C11 /* LaunchScreen.xib */,
+				FE9FDBBA1B2DFEBE00632C11 /* Supporting Files */,
+			);
+			path = cerosel;
+			sourceTree = "<group>";
+		};
+		FE9FDBBA1B2DFEBE00632C11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE9FDBBB1B2DFEBE00632C11 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE9FDBCF1B2DFEBF00632C11 /* ceroselTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE9FDBD21B2DFEBF00632C11 /* ceroselTests.swift */,
+				FE9FDBD01B2DFEBF00632C11 /* Supporting Files */,
+			);
+			path = ceroselTests;
+			sourceTree = "<group>";
+		};
+		FE9FDBD01B2DFEBF00632C11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE9FDBD11B2DFEBF00632C11 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE9FDBB61B2DFEBE00632C11 /* cerosel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9FDBD61B2DFEBF00632C11 /* Build configuration list for PBXNativeTarget "cerosel" */;
+			buildPhases = (
+				FE9FDBB31B2DFEBE00632C11 /* Sources */,
+				FE9FDBB41B2DFEBE00632C11 /* Frameworks */,
+				FE9FDBB51B2DFEBE00632C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cerosel;
+			productName = cerosel;
+			productReference = FE9FDBB71B2DFEBE00632C11 /* cerosel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE9FDBCB1B2DFEBF00632C11 /* ceroselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9FDBD91B2DFEBF00632C11 /* Build configuration list for PBXNativeTarget "ceroselTests" */;
+			buildPhases = (
+				FE9FDBC81B2DFEBF00632C11 /* Sources */,
+				FE9FDBC91B2DFEBF00632C11 /* Frameworks */,
+				FE9FDBCA1B2DFEBF00632C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE9FDBCE1B2DFEBF00632C11 /* PBXTargetDependency */,
+			);
+			name = ceroselTests;
+			productName = ceroselTests;
+			productReference = FE9FDBCC1B2DFEBF00632C11 /* ceroselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE9FDBAF1B2DFEBE00632C11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Saylani;
+				TargetAttributes = {
+					FE9FDBB61B2DFEBE00632C11 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FE9FDBCB1B2DFEBF00632C11 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FE9FDBB61B2DFEBE00632C11;
+					};
+				};
+			};
+			buildConfigurationList = FE9FDBB21B2DFEBE00632C11 /* Build configuration list for PBXProject "cerosel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE9FDBAE1B2DFEBE00632C11;
+			productRefGroup = FE9FDBB81B2DFEBE00632C11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE9FDBB61B2DFEBE00632C11 /* cerosel */,
+				FE9FDBCB1B2DFEBF00632C11 /* ceroselTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE9FDBB51B2DFEBE00632C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9FDBC21B2DFEBE00632C11 /* Main.storyboard in Resources */,
+				FE9FDBC71B2DFEBE00632C11 /* LaunchScreen.xib in Resources */,
+				FE9FDBDE1B2E00B000632C11 /* 2.png in Resources */,
+				FE9FDBE11B2E04AD00632C11 /* 3.png in Resources */,
+				FE9FDBC41B2DFEBE00632C11 /* Images.xcassets in Resources */,
+				FE9FDBDF1B2E00B000632C11 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9FDBCA1B2DFEBF00632C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE9FDBB31B2DFEBE00632C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9FDBBF1B2DFEBE00632C11 /* ViewController.swift in Sources */,
+				FE9FDBBD1B2DFEBE00632C11 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9FDBC81B2DFEBF00632C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9FDBD31B2DFEBF00632C11 /* ceroselTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE9FDBCE1B2DFEBF00632C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE9FDBB61B2DFEBE00632C11 /* cerosel */;
+			targetProxy = FE9FDBCD1B2DFEBF00632C11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE9FDBC01B2DFEBE00632C11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE9FDBC11B2DFEBE00632C11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE9FDBC51B2DFEBE00632C11 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE9FDBC61B2DFEBE00632C11 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE9FDBD41B2DFEBF00632C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE9FDBD51B2DFEBF00632C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE9FDBD71B2DFEBF00632C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cerosel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE9FDBD81B2DFEBF00632C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cerosel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE9FDBDA1B2DFEBF00632C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ceroselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cerosel.app/cerosel";
+			};
+			name = Debug;
+		};
+		FE9FDBDB1B2DFEBF00632C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ceroselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cerosel.app/cerosel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE9FDBB21B2DFEBE00632C11 /* Build configuration list for PBXProject "cerosel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9FDBD41B2DFEBF00632C11 /* Debug */,
+				FE9FDBD51B2DFEBF00632C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9FDBD61B2DFEBF00632C11 /* Build configuration list for PBXNativeTarget "cerosel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9FDBD71B2DFEBF00632C11 /* Debug */,
+				FE9FDBD81B2DFEBF00632C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE9FDBD91B2DFEBF00632C11 /* Build configuration list for PBXNativeTarget "ceroselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9FDBDA1B2DFEBF00632C11 /* Debug */,
+				FE9FDBDB1B2DFEBF00632C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE9FDBAF1B2DFEBE00632C11 /* Project object */;
+}
